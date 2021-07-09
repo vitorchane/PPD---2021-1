@@ -1,7 +1,5 @@
 import java.util.Random;
 
-import javax.naming.spi.DirStateFactory.Result;
-
 class Main {
     public static int[] generateRandomNumbers(int quantity) {
         long seed = 1;
@@ -39,7 +37,7 @@ class Main {
                     samples[i] = totalTime;
                 }
 
-                ResultAnalyzer analyzer = new ResultAnalyzer(instance, samples);
+                ResultAnalyzer analyzer = new ResultAnalyzer(samples);
                 System.out.printf("AVERAGE=%.4fms; STANDART DEVIATION=%.4fms\n\n", analyzer.averageTime(),
                         analyzer.standartDeviation());
             }

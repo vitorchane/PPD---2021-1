@@ -1,16 +1,20 @@
 import java.lang.Math;
 
+import java.util.Arrays;
+
 public class ResultAnalyzer {
-    private int nThreads;
     private long[] times;
 
-    public ResultAnalyzer(int nThreads, long[] times) {
-        this.nThreads = nThreads;
-        this.times = times;
+    public ResultAnalyzer(long[] times) {
+        setTimes(times);
     }
 
-    public int getNThreads() {
-        return nThreads;
+    private void setTimes(long[] times) {
+        Arrays.sort(times);
+        this.times = new long[times.length - 2];
+        for (int i = 0; i < this.times.length; i++) {
+            this.times[i] = times[i + 1];
+        }
     }
 
     public double averageTime() {
