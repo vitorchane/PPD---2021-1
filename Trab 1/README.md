@@ -24,6 +24,7 @@ Após executarmos o script 10x para cada instância, observamos que a primeira e
 | 4 | 320.5000 | 16.1334 |
 | 8 | 460.1250 | 6.9372 |
 
+![Threads x Time](grafico.png)
 
 #### Autores
 - <a href="https://github.com/endlichfelipe" target="_blank">Felipe Endlich</a>
