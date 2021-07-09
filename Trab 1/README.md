@@ -10,8 +10,8 @@
 Abra o shell na pasta raíz do trabalho e execute os seguintes comandos:
 
 ``` 
-$ javac trab1.java
-$ java trab1
+$ javac *.java
+$ java Main
 ```
 
 #### Autores
