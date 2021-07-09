@@ -1,7 +1,19 @@
-# PPD---2021-1
-Repositório do curso de Processamento Paralelo e Distribuído - UFES - 2021/1
+# Trabalho 1 - Ordenador Paralelo
 
-Para compilar:
+#### Requisitos
 
-javac trab1.java
-java trab1
+- Java 16
+
+#### Execução
+
+
+Abra o shell na pasta raíz do trabalho e execute os seguintes comandos:
+
+``` 
+$ javac trab1.java
+$ java trab1
+```
+
+#### Autores
+- <a href="https://github.com/endlichfelipe" target="_blank">Felipe Endlich</a>
+- <a href="https://github.com/vitorchane" target="_blank">Vitor Chane</a>
